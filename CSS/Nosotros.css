@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+html{
+    width:1255px
+}
+
+body{
+    background-color: rgba(231, 231, 231, 0.89);
+    height:1000px
+}
+
+ul#lista  {
+    list-style:none;
+    text-decoration:none ;
+    display:flex; 
+    flex-direction: row;
+    font-family:"Nunito",sans-serif;
+    height:60px;
+    width:1255px;
+    text-align:center;
+    background-color:#202235;
+    position:sticky;
+    margin-left:25px;
+    padding-bottom:10px;
+    justify-content:space-evenly;
+    margin-top:12px
+}
+
+
+#lista li button:hover{
+    border:#202235;
+    color: rgb(238, 238, 238);
+    background-color: #07116ff2;
+    cursor:pointer;
+    will-change:transform;
+    transition: all 250ms ease-in-out;
+    transform:scale(1.052);
+
+  
+}
+
+#lista li button{
+    display:inline-block;
+    border:#202235;
+    background-color:#202235;
+    color: rgb(238,238,238);
+    font-size:18px;
+    justify-content:center;
+    text-align:center;
+    width:178px;
+    height:60px;
+    padding-left:40px;
+    padding-right:40px;
+    margin-top:5px;
+    position:static;
+    
+    
+}
+
+
+
+section {
+    height:500px;
+    width:600px;
+    margin-top:30px;
+}
+
+
+h2 {
+    font-size:35px;
+    font-family:"Overpass",sans-serif
+}
+section p {
+    font-family:"Overpass", sans-serif
+}
+
+#titulo{
+    font-size:35px;
+    margin-top:50px;
+    margin-left:200px
+}
+#texto{
+    font-size:19px;
+    margin-top:45px;
+    margin-left:145px
+}
+
+.divisor{
+    width:1200px
+}
+
+#titulo-1{
+    font-size:35px;
+    margin-top:50px;
+    margin-left:890px
+}
+
+#texto-1{
+    font-size:19px;
+    margin-top:45px;
+    margin-left:765px
+}
+
+

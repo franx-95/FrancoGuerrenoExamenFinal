@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+body{
+    background-color: rgba(231, 231, 231, 0.89);
+    height:1200px;
+    width:95% auto;
+}
+
+ul#lista  {
+    list-style:none;
+    text-decoration:none ;
+    display:flex; 
+    flex-direction: row;
+    font-family:"Nunito",sans-serif;
+    height:60px;
+    width:1255px;
+    text-align:center;
+    background-color:#202235;
+    position:sticky;
+    margin-left:25px;
+    padding-bottom:10px;
+    justify-content:space-evenly;
+    margin-top:12px
+}
+
+
+#lista li button:hover{
+    border:#202235;
+    color: rgb(238, 238, 238);
+    background-color: #07116ff2;
+    cursor:pointer;
+    will-change:transform;
+    transition: all 250ms ease-in-out;
+    transform:scale(1.052);
+
+  
+}
+
+#lista li button{
+    display:inline-block;
+    border:#202235;
+    background-color:#202235;
+    color: rgb(238,238,238);
+    font-size:18px;
+    justify-content:center;
+    text-align:center;
+    width:178px;
+    height:60px;
+    padding-left:40px;
+    padding-right:40px;
+    margin-top:5px;
+    position:static;
+    
+   
+}
+
+#Contenedor :hover{
+    transition:0.23s;
+    transform:scale(1.05);
+    cursor:context-menu
+}
+
+#Contenedor span {
+    display:block;
+    font-size:17.09px;
+    font-family:"Overpass",sans-serif;
+    font-weight:bolder;
+    height:80px;
+    width:250px;
+    padding:0px;
+    position:relative;
+    top:21em;
+    background-color: rgb(211 212 212 / 82%);
+    justify-content:right;
+    align-items:flex-start
+
+}
+
+.price {
+    display:flex;
+    justify-content:flex-start;
+    font-size:25px;
+    justify-content:left
+
+}
+
+
+
+.elemento {
+   
+    width: 250px;
+    height:260px;
+    margin-right:40px;
+    margin-top:px;
+    flex: 0.1 auto;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+
+}
+
+
+
+.text-title{
+    margin-top:30px;
+    margin-left:22px;
+    font-size:22px;
+    font-family:"Urbano";
+    padding:15px;
+    color:rgb(238,238,238);
+    background-color:#20223596;
+    width:1100px
+}
